@@ -1,0 +1,11 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+[class^="col"] {
+	outline: 3px solid black;
+	min-height: 100px;
+}
+
+.table {
+	width: 300px;
+	margin: 30px auto;
+}

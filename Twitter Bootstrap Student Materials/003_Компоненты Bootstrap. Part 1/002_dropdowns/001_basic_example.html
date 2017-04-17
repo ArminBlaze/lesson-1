@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Выпадающий список</title>
+
+    <!--Подключение необходимых файлов-->
+
+    <link href="../Bootstrap/styles/bootstrap.css" rel="stylesheet" />
+    <script src="../Bootstrap/js/jquery-1.11.1.min.js"></script>    <!--Подключение библиотеки jQuery-->
+    <script src="../Bootstrap/js/bootstrap.js"></script>
+
+    <style>
+
+        .dropdown {
+            margin: 200px auto;
+            width: 170px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!--Создание выпадающего списка-->
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+            Dropdown
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a role="menuitem" tabindex="-2" href="#">Action</a></li>
+            <li><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+            <li><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
